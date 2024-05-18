@@ -33,25 +33,10 @@ This project is divided into two main assignments focused on Natural Language Pr
 ```
 .
 ├── README.md
-├── BPE_Implementation
-│ ├── bpe_tokenizer.py
-│ ├── bpe_model_comparison.py
-│ └── examples
-│ ├── example_with_bpe.py
-│ └── example_without_bpe.py
-├── Spelling_Correction
-│ ├── data
-│ │ ├── generate_training_data.py
-│ │ └── vietnamese_spelling_errors.txt
-│ ├── model
-│ │ ├── encoder_model.py
-│ │ ├── encoder_decoder_model.py
-│ │ └── decoder_model.py
-│ ├── train.py
-│ ├── evaluate.py
-│ └── pretrained_models
-│ └── fine_tuned_model.pth
-└── requirements.txt
+├── BPE_Implementation.ipynb
+├── Requirement1.ipynb
+├── Requirement2.ipynb
+└── requirements.txt (if available)
 ```
 
 ## Prerequisites
@@ -79,25 +64,21 @@ This project is divided into two main assignments focused on Natural Language Pr
 2. **Model Comparison**:
     - To run the example using BPE tokenization:
       ```sh
-      python BPE_Implementation/examples/example_with_bpe.py
-      ```
-    - To run the example without BPE tokenization:
-      ```sh
-      python BPE_Implementation/examples/example_without_bpe.py
+      python Requirement1.ipynb
       ```
 
 ### Assignment 2: Vietnamese Spelling Correction
 1. **Generate Training Data**:
     ```sh
-    python Spelling_Correction/data/generate_training_data.py
+    python Requirement2.ipynb
     ```
 2. **Train the Model**:
     ```sh
-    python Spelling_Correction/train.py --model_type encoder_decoder --data_path Spelling_Correction/data/vietnamese_spelling_errors.txt
+    python Requirement2.ipynb
     ```
 3. **Evaluate the Model**:
     ```sh
-    python Spelling_Correction/evaluate.py --model_path Spelling_Correction/pretrained_models/fine_tuned_model.pth
+    python Requirement2.ipynb
     ```
 
 ## Assignment 1: Byte-Pair Encoding (BPE)
