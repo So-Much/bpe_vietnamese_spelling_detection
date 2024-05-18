@@ -63,7 +63,7 @@ This project is divided into two main assignments focused on Natural Language Pr
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/nlp-project.git
+    git clone https://github.com/So-Much/bpe_vietnamese_spelling_detection
     cd nlp-project
     ```
 
