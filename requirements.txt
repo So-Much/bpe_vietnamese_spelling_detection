@@ -2,3 +2,4 @@ transformers
 tokenizers
 datasets
 evaluate
+accelerate==0.27.2
